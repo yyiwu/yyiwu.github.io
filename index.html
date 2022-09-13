@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="solve.js"></script>
+</head>
+<body>
+<button class="gr" style="margin-top: 10px;margin-left: 70%" onclick="add()">添加</button>
+<table>
+    <thead>
+    <tr>
+        <th>电影海报</th>
+        <th>电影名称</th>
+        <th>电影类别</th>
+        <th>评分</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<script>
+    add(
+        {
+            src: '1.jpeg',
+            name: '海贼王：狂热行动',
+            category: '动漫、动作',
+            score: '9.2'
+        }
+    );
+    add(
+        {
+            src: '2.jpg',
+            name: '你的名字',
+            category: '爱情、动漫',
+            score: '9.8'
+        }
+    );
+    add(
+        {
+            src: '3.jpg',
+            name: '烟花',
+            category: '爱情、动漫',
+            score: '9.3'
+        }
+    );
+</script>
+</body>
+</html>

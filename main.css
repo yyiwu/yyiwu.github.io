@@ -1,0 +1,117 @@
+html, body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+button {
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 10px 24px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.gr {
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+thead tr {
+    height: 60px;
+    line-height: 50px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+thead {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+tbody tr {
+    height: 170px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+tbody td {
+    font-size: 18px;
+    font-family: 宋体;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+}
+
+.jack {
+    vertical-align: middle !important;
+    width: 80%;
+}
+.mdd{
+    background: none;
+    text-align: center;
+}
+button {
+    margin: 5px 4px;
+    padding: 0;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.rd:hover {
+    cursor: pointer;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.be:hover {
+    cursor: pointer;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.gr:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.rd {
+    background-color: rgb(220, 53, 69);
+    color: rgb(255, 255, 255);
+}
+
+.be {
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+}
+
+input {
+    background-color: rgb(230, 230, 230);
+    border: none;
+}
+
+#alt {
+    border-radius: 10px;
+    background-color: rgba(135, 206, 250, 0.9);
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -250px
+}
